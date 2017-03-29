@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:landptf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/btm_default_alter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="defaultAlert"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/btm_default_tip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="defaultTip"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/btm_custom_alert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="CustomAlert"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/btm_custom_tip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="CustomTip"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+</LinearLayout>

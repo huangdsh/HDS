@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:landptf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/button_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="ButtonM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/button_extend_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="ButtonExtendM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/menu_item_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="MenuItemM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/menu_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="MenuM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/dialog_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="DialogM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/banner_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="BannerM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+    <com.landptf.view.ButtonM
+        android:id="@+id/count_down_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="CountDownM"
+        landptf:backColor="#ff3300"
+        landptf:backColorPress="#ff33ff"
+        landptf:fillet="true"
+        landptf:radius="30"
+        landptf:textColor="@android:color/white" />
+
+
+</LinearLayout>
